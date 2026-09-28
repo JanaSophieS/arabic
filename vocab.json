@@ -254,6 +254,10 @@
     {
       "start": 767,
       "date": "2026-09-24"
+    },
+    {
+      "start": 782,
+      "date": "2026-09-28"
     }
   ],
   "words": [
@@ -5200,6 +5204,180 @@
       "tr": "ta-lit / tal-te",
       "en": "Third (m./f.)",
       "cat": "numbers"
+    },
+    {
+      "ar": "أَوَّل / أَوَّلة",
+      "tr": "aw-wal / aw-wa-le",
+      "en": "First (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "تاني / تانْية",
+      "tr": "ta-ni / tan-ye",
+      "en": "Second (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "رابِع / رابْعة",
+      "tr": "ra-bi3 / rab-3a",
+      "en": "Fourth (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "خامِس / خامْسة",
+      "tr": "kha-mis / kham-se",
+      "en": "Fifth (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "سادِس / سادْسة",
+      "tr": "sa-dis / sad-se",
+      "en": "Sixth (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "سابِع / سابْعة",
+      "tr": "sa-bi3 / sab-3a",
+      "en": "Seventh (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "تامِن / تامْنة",
+      "tr": "ta-min / tam-ne",
+      "en": "Eighth (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "تاسِع / تاسْعة",
+      "tr": "ta-si3 / tas-3a",
+      "en": "Ninth (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "عاشِر / عاشْرة",
+      "tr": "3a-shir / 3ash-ra",
+      "en": "Tenth (m./f.)",
+      "cat": "numbers"
+    },
+    {
+      "ar": "سَطر",
+      "tr": "satr",
+      "en": "Line (of text)",
+      "cat": "study"
+    },
+    {
+      "ar": "دَوْلة",
+      "tr": "daw-le",
+      "en": "State, government",
+      "cat": "society"
+    },
+    {
+      "ar": "مِزاج",
+      "tr": "mi-zej",
+      "en": "Mood",
+      "cat": "people"
+    },
+    {
+      "ar": "قِصّة",
+      "tr": "2is-sa",
+      "en": "Story",
+      "cat": "study"
+    },
+    {
+      "ar": "أَلَّف / يأَلِّف",
+      "tr": "al-laf / y-al-lif",
+      "en": "To invent, to compose",
+      "cat": "verbs"
+    },
+    {
+      "ar": "سَكَت / يِسكُت",
+      "tr": "sa-kat / yis-kut",
+      "en": "To be quiet, to fall silent",
+      "cat": "verbs"
+    },
+    {
+      "ar": "الكَهْرَبا",
+      "tr": "el-kah-ra-ba",
+      "en": "Electricity, power",
+      "cat": "things"
+    },
+    {
+      "ar": "انْقَطَعِت الكَهْرَبا",
+      "tr": "in-2a-ta-3it el-kah-ra-ba",
+      "en": "The power went out",
+      "cat": "expressions"
+    },
+    {
+      "ar": "تْفَرْكَش / يِتْفَرْكَش",
+      "tr": "tfar-kash / yit-far-kash",
+      "en": "To trip",
+      "cat": "verbs"
+    },
+    {
+      "ar": "وِقِع / يوقَع",
+      "tr": "wi-2i3 / yu-2a3",
+      "en": "To fall",
+      "cat": "verbs"
+    },
+    {
+      "ar": "أَرض",
+      "tr": "ard",
+      "en": "Ground, floor",
+      "cat": "nature"
+    },
+    {
+      "ar": "صَرَخ / يِصرُخ",
+      "tr": "sa-rakh / yis-rukh",
+      "en": "To shout, to scream",
+      "cat": "verbs"
+    },
+    {
+      "ar": "خاف عَلى",
+      "tr": "khaf 3a-la",
+      "en": "To worry about",
+      "cat": "verbs"
+    },
+    {
+      "ar": "حَكيم",
+      "tr": "ha-kim",
+      "en": "Doctor (colloquial)",
+      "cat": "health"
+    },
+    {
+      "ar": "رَفَض / يِرفُض",
+      "tr": "ra-fad / yir-fud",
+      "en": "To refuse",
+      "cat": "verbs"
+    },
+    {
+      "ar": "قِبِل / يِقبَل",
+      "tr": "2i-bil / yi2-bal",
+      "en": "To accept, to agree",
+      "cat": "verbs"
+    },
+    {
+      "ar": "تَخت",
+      "tr": "takht",
+      "en": "Bed",
+      "cat": "things"
+    },
+    {
+      "ar": "سَمّاعة",
+      "tr": "sam-ma-3a",
+      "en": "Stethoscope",
+      "cat": "health"
+    },
+    {
+      "ar": "مْرَضْرَض",
+      "tr": "mrad-rad",
+      "en": "Bruised",
+      "cat": "health"
+    },
+    {
+      "ar": "آخِر شي",
+      "tr": "a-khir shi",
+      "en": "In the end, finally",
+      "cat": "expressions"
     }
   ]
 }

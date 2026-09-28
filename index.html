@@ -1767,23 +1767,13 @@ function pickDailyWords(){
   });
   withScore.sort((a,b)=>a.weight-b.weight || Math.random()-0.5);
   const ranked=withScore.map(x=>x.w);
-  // Reserve a few slots for words that have an example sentence (so "write your own
-  // sentence" mode has something solid to reveal), pulled from the weakest first.
-  const withExamples=ranked.filter(w=>WORD_EXAMPLES[w.ar]);
-  const chosen=[];
-  const seen=new Set();
-  for(const w of withExamples){ if(chosen.length>=4) break; chosen.push(w); seen.add(w.id); }
-  for(const w of ranked){ if(chosen.length>=15) break; if(!seen.has(w.id)){ chosen.push(w); seen.add(w.id); } }
-  return chosen.slice(0,15).map(w=>w.id);
+  return ranked.slice(0,15).map(w=>w.id);
 }
-// Assign each of today's words an activity: 'write' (sentence-building, capped) for
-// words with a curated example, otherwise alternating 'quiz' (multiple choice) and
-// 'recall' (self-graded flashcard) for variety.
+// Assign each of today's words an activity, alternating 'quiz' (multiple choice) and
+// 'recall' (self-graded flashcard). No sentence-building in the Daily 15.
 function assignDailyModes(ids){
-  let writeCount=0, altToggle=0;
+  let altToggle=0;
   return ids.map(id=>{
-    const w=VOCAB.find(x=>x.id===id);
-    if(w && WORD_EXAMPLES[w.ar] && writeCount<4){ writeCount++; return "write"; }
     altToggle++;
     return altToggle%2===0?"quiz":"recall";
   });
@@ -1796,7 +1786,7 @@ function getOrCreateDaily(){
     d={date:tk,ids,modes:assignDailyModes(ids),done:false,score:0};
     saveDaily(d);
   }
-  if(!d.modes) d.modes=assignDailyModes(d.ids); // backfill if loaded from an older save
+  if(!d.modes || d.modes.includes("write")){ d.modes=assignDailyModes(d.ids); saveDaily(d); } // backfill older saves / drop old sentence prompts
   return d;
 }
 const dailyState={i:0,score:0,questions:[],misses:[],answered:false};
@@ -1811,7 +1801,7 @@ function renderDaily(){
   host.innerHTML=`
     <div class="setup">
       <div class="field"><label>${dateLabel}</label>
-        <p style="margin:4px 0 0;color:var(--muted);font-size:14px">${d.done?`You already did today's set — scored ${d.score} / 15. Come back tomorrow for a new one, or practice again below.`:`15 words picked for you — weaker words first. Mixed in: multiple choice, recall-it-yourself, and a few "write your own sentence" prompts.`}</p>
+        <p style="margin:4px 0 0;color:var(--muted);font-size:14px">${d.done?`You already did today's set — scored ${d.score} / 15. Come back tomorrow for a new one, or practice again below.`:`15 words picked for you — weaker words first. Mixed in: multiple choice and recall-it-yourself.`}</p>
       </div>
       <div class="mini-grid" id="daily-preview"></div>
       <button class="btn primary lg" id="daily-start">${d.done?"Practice again":"Start today's 15"}</button>
@@ -1834,7 +1824,7 @@ function renderDailyStep(d){
   const item=dailyState.questions[dailyState.i];
   if(item.mode==="quiz") renderDailyQuiz(d,item);
   else if(item.mode==="recall") renderDailyRecall(d,item);
-  else renderDailyWrite(d,item);
+  else renderDailyRecall(d,item);
 }
 function dailyAdvance(d,gotIt,word){
   if(gotIt) dailyState.score++; else dailyState.misses.push(word);
