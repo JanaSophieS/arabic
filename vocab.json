@@ -107,6 +107,10 @@
     "expressions": {
       "label": "Phrases & Expressions",
       "emoji": "💬"
+    },
+    "politics": {
+      "label": "Politics & History",
+      "emoji": "🗳️"
     }
   },
   "themes": {
@@ -118,7 +122,8 @@
         "people",
         "jobs",
         "work",
-        "society"
+        "society",
+        "politics"
       ]
     },
     "home": {
@@ -258,6 +263,10 @@
     {
       "start": 782,
       "date": "2026-09-28"
+    },
+    {
+      "start": 811,
+      "date": "2026-10-12"
     }
   ],
   "words": [
@@ -548,7 +557,7 @@
     {
       "ar": "عَشا",
       "tr": "3a-sha",
-      "en": "Dinner",
+      "en": "Dinner, evening",
       "cat": "food"
     },
     {
@@ -1303,15 +1312,17 @@
       "ar": "شَرِكة",
       "tr": "sha-ri-ke",
       "en": "Company",
-      "cat": "work"
+      "cat": "work",
+      "pl": "شَرِكات",
+      "pltr": "sha-ri-kat"
     },
     {
       "ar": "خِبرة",
       "tr": "khib-ra",
       "en": "Experience",
       "cat": "work",
-      "pl": "شَرِكات",
-      "pltr": "sha-ri-kat"
+      "pl": "خِبرات",
+      "pltr": "khib-rat"
     },
     {
       "ar": "مِهنة",
@@ -2412,7 +2423,7 @@
     {
       "ar": "حاجِب",
       "tr": "ha-jib",
-      "en": "Eyebrows",
+      "en": "Eyebrow",
       "cat": "body",
       "pl": "حَواجِب",
       "pltr": "ha-wa-jib"
@@ -2679,31 +2690,31 @@
       "ar": "شارِع",
       "tr": "sha-ri3",
       "en": "Street",
-      "cat": "traffic"
+      "cat": "traffic",
+      "pl": "شَوارِع",
+      "pltr": "sha-wa-ri3"
     },
     {
       "ar": "طَريق",
       "tr": "ta-ri2",
       "en": "Road",
       "cat": "traffic",
-      "pl": "شَوارِع",
-      "pltr": "sha-wa-ri3"
+      "pl": "طُرُق",
+      "pltr": "tu-ru2"
     },
     {
       "ar": "زاروب",
       "tr": "za-roub",
       "en": "Alley",
       "cat": "traffic",
-      "pl": "طُرُق",
-      "pltr": "tu-ru2"
+      "pl": "زَواريب",
+      "pltr": "za-wa-rib"
     },
     {
       "ar": "طَلْعة",
       "tr": "tal-3a",
       "en": "Uphill road",
-      "cat": "traffic",
-      "pl": "زَواريب",
-      "pltr": "za-wa-rib"
+      "cat": "traffic"
     },
     {
       "ar": "نَزْلة",
@@ -2743,59 +2754,59 @@
       "ar": "بِناية",
       "tr": "bi-na-ye",
       "en": "Building",
-      "cat": "traffic"
-    },
-    {
-      "ar": "ظَبط",
-      "tr": "dabt",
-      "en": "Driving ticket",
       "cat": "traffic",
       "pl": "بِنايات",
       "pltr": "bi-na-yat"
     },
     {
+      "ar": "ظَبط",
+      "tr": "dabt",
+      "en": "Driving ticket",
+      "cat": "traffic"
+    },
+    {
       "ar": "دُوّار",
       "tr": "dow-war",
       "en": "Roundabout",
-      "cat": "traffic"
+      "cat": "traffic",
+      "pl": "دُوّارات",
+      "pltr": "dow-wa-rat"
     },
     {
       "ar": "جِسِر",
       "tr": "ji-sir",
       "en": "Bridge",
       "cat": "traffic",
-      "pl": "دَوّارات",
-      "pltr": "daw-wa-rat"
+      "pl": "جُسور",
+      "pltr": "ju-sour"
     },
     {
       "ar": "جِسِر المُشاة",
       "tr": "ji-sir al-mu-sha",
       "en": "Pedestrian bridge",
-      "cat": "traffic",
-      "pl": "جُسور",
-      "pltr": "ju-sour"
+      "cat": "traffic"
     },
     {
       "ar": "نَفَق",
       "tr": "na-fa2",
       "en": "Tunnel",
-      "cat": "traffic"
+      "cat": "traffic",
+      "pl": "أَنفاق",
+      "pltr": "an-faq"
     },
     {
       "ar": "حاجِز",
       "tr": "ha-jiz",
       "en": "Checkpoint",
       "cat": "traffic",
-      "pl": "أَنفاق",
-      "pltr": "an-faq"
+      "pl": "حَواجِز",
+      "pltr": "ha-wa-jiz"
     },
     {
       "ar": "مَصَلِّبِيّة",
       "tr": "ma-sal-li-biy-ye",
       "en": "Intersection",
-      "cat": "traffic",
-      "pl": "حَواجِز",
-      "pltr": "ha-wa-jiz"
+      "cat": "traffic"
     },
     {
       "ar": "مَمَرّ",
@@ -2938,7 +2949,7 @@
     {
       "ar": "قَصر",
       "tr": "2asr",
-      "en": "Castle",
+      "en": "Palace",
       "cat": "places",
       "pl": "قُصور",
       "pltr": "qu-sour"
@@ -2946,7 +2957,7 @@
     {
       "ar": "قَلعة",
       "tr": "2al-3a",
-      "en": "Fortress",
+      "en": "Castle, fortress",
       "cat": "places",
       "pl": "قِلاع",
       "pltr": "qi-la3"
@@ -3051,15 +3062,17 @@
       "ar": "سائِح",
       "tr": "sa-2ih",
       "en": "Tourist",
-      "cat": "travel"
+      "cat": "travel",
+      "pl": "سُيّاح",
+      "pltr": "suy-yah"
     },
     {
       "ar": "أجنَبي",
       "tr": "aj-na-bi",
       "en": "Foreigner",
       "cat": "travel",
-      "pl": "سُيّاح",
-      "pltr": "si-yyah"
+      "pl": "أَجانِب",
+      "pltr": "a-ja-nib"
     },
     {
       "ar": "دَليل",
@@ -3680,40 +3693,40 @@
       "tr": "ha-sha-ra",
       "en": "Insect",
       "cat": "nature",
-      "pl": "حَيَوانات",
-      "pltr": "ha-ya-wa-nat"
+      "pl": "حَشَرات",
+      "pltr": "ha-sha-rat"
     },
     {
       "ar": "تِمساح",
       "tr": "tim-sah",
       "en": "Crocodile",
       "cat": "nature",
-      "pl": "حَشَرات",
-      "pltr": "ha-sha-rat"
+      "pl": "تَماسيح",
+      "pltr": "ta-ma-sih"
     },
     {
       "ar": "صَرصور",
       "tr": "sar-sour",
       "en": "Cockroach",
       "cat": "nature",
-      "pl": "تَماسيح",
-      "pltr": "ta-ma-sih"
+      "pl": "صَراصير",
+      "pltr": "sa-ra-sir"
     },
     {
       "ar": "بُرغوث",
       "tr": "bur-ghouth",
       "en": "Flea",
       "cat": "nature",
-      "pl": "صَراصير",
-      "pltr": "sa-ra-sir"
+      "pl": "بَراغيث",
+      "pltr": "ba-ra-ghith"
     },
     {
       "ar": "ذُبابة",
       "tr": "zu-ba-be",
       "en": "Fly",
       "cat": "nature",
-      "pl": "بَراغيث",
-      "pltr": "ba-ra-ghith"
+      "pl": "دِبّان",
+      "pltr": "dib-ban"
     },
     {
       "ar": "نَحلة",
@@ -3725,15 +3738,15 @@
       "ar": "حوت",
       "tr": "hout",
       "en": "Whale",
-      "cat": "nature"
+      "cat": "nature",
+      "pl": "حيتان",
+      "pltr": "hi-tan"
     },
     {
       "ar": "بِشِع",
       "tr": "bi-shi3",
       "en": "Ugly",
-      "cat": "adj",
-      "pl": "حيتان",
-      "pltr": "hi-tan"
+      "cat": "adj"
     },
     {
       "ar": "سَهِل",
@@ -3802,10 +3815,12 @@
       "cat": "adj"
     },
     {
-      "ar": "شاطِر",
-      "tr": "sha-tir",
-      "en": "Smart (clever)",
-      "cat": "adj"
+      "ar": "شاطِر / شاطْرة",
+      "tr": "sha-tir / shat-ra",
+      "en": "Smart, skilled (m./f.)",
+      "cat": "adj",
+      "pl": "شاطْرين",
+      "pltr": "shat-rin"
     },
     {
       "ar": "مِشَوَّش",
@@ -3901,7 +3916,9 @@
       "ar": "فَقير",
       "tr": "fa-2ir",
       "en": "Poor",
-      "cat": "adj"
+      "cat": "adj",
+      "pl": "فُقَرا",
+      "pltr": "fu-2a-ra"
     },
     {
       "ar": "مُهِمّ",
@@ -4196,7 +4213,7 @@
     {
       "ar": "رَطب",
       "tr": "ratb",
-      "en": "Humid / Damp",
+      "en": "Wet, humid",
       "cat": "adj"
     },
     {
@@ -4824,9 +4841,9 @@
       "cat": "adj"
     },
     {
-      "ar": "ضَعيفة",
-      "tr": "da-3i-fe",
-      "en": "Frail, weak (f.)",
+      "ar": "ضَعيف / ضَعيفة",
+      "tr": "da-3if / da-3i-fe",
+      "en": "Weak, frail (m./f.)",
       "cat": "adj"
     },
     {
@@ -4985,33 +5002,25 @@
       "ar": "رَمادي / رَمادِيّة",
       "tr": "ra-ma-di / ra-ma-diy-ye",
       "en": "Gray (m./f.)",
-      "cat": "adj",
-      "pl": "رَمادي",
-      "pltr": "ra-ma-di"
+      "cat": "adj"
     },
     {
       "ar": "بَنَفسَجي / بَنَفسَجِيّة",
       "tr": "ba-naf-sa-ji / ba-naf-sa-jiy-ye",
       "en": "Purple (m./f.)",
-      "cat": "adj",
-      "pl": "بَنَفسَجي",
-      "pltr": "ba-naf-sa-ji"
+      "cat": "adj"
     },
     {
       "ar": "بُرتُقالي",
       "tr": "bur-tu-2a-li",
       "en": "Orange (color)",
-      "cat": "adj",
-      "pl": "بُرتُقالي",
-      "pltr": "bur-tu-2a-li"
+      "cat": "adj"
     },
     {
       "ar": "بُنّي / بُنِّيّة",
       "tr": "bun-ni / bun-niy-ye",
       "en": "Brown (m./f.)",
-      "cat": "adj",
-      "pl": "بُنّي",
-      "pltr": "bun-ni"
+      "cat": "adj"
     },
     {
       "ar": "أَسوَد / سَودا",
@@ -5025,9 +5034,7 @@
       "ar": "كُحلِي",
       "tr": "kuh-li",
       "en": "Navy blue",
-      "cat": "adj",
-      "pl": "كُحلِي",
-      "pltr": "kuh-li"
+      "cat": "adj"
     },
     {
       "ar": "زَهري",
@@ -5039,9 +5046,7 @@
       "ar": "عَسَلي / عَسَلِيّة",
       "tr": "3a-sa-li / 3a-sa-liy-ye",
       "en": "Honey-colored",
-      "cat": "adj",
-      "pl": "عَسَلي",
-      "pltr": "3a-sa-li"
+      "cat": "adj"
     },
     {
       "ar": "فاتِح",
@@ -5190,7 +5195,7 @@
     {
       "ar": "حَتّى",
       "tr": "hat-ta",
-      "en": "So that, until",
+      "en": "So that, until, even",
       "cat": "expressions"
     },
     {
@@ -5269,7 +5274,9 @@
       "ar": "دَوْلة",
       "tr": "daw-le",
       "en": "State, government",
-      "cat": "society"
+      "cat": "society",
+      "pl": "دُوَل",
+      "pltr": "du-wal"
     },
     {
       "ar": "مِزاج",
@@ -5378,6 +5385,1206 @@
       "tr": "a-khir shi",
       "en": "In the end, finally",
       "cat": "expressions"
+    },
+    {
+      "ar": "أَقَلّ شي / بِالقَليلة",
+      "tr": "a2all shi / bil-2a-li-le",
+      "en": "At least, minimum",
+      "cat": "expressions"
+    },
+    {
+      "ar": "أَقَلِّيّة",
+      "tr": "a2-al-liy-ye",
+      "en": "Minority",
+      "cat": "society",
+      "pl": "أَقَلِّيّات",
+      "pltr": "a2-al-liy-yat"
+    },
+    {
+      "ar": "أَكتَر شي / بِالكَتير",
+      "tr": "ak-tar shi / bil-ka-tir",
+      "en": "At most, maximum",
+      "cat": "expressions"
+    },
+    {
+      "ar": "أَكتَرِيّة",
+      "tr": "ak-ta-riy-ye",
+      "en": "Majority",
+      "cat": "society"
+    },
+    {
+      "ar": "حَدا",
+      "tr": "ha-da",
+      "en": "Someone",
+      "cat": "pronouns"
+    },
+    {
+      "ar": "شي مَطرَح / شي مَكان",
+      "tr": "shi mat-rah / shi ma-kan",
+      "en": "Somewhere",
+      "cat": "location"
+    },
+    {
+      "ar": "مَكان / مَطرَح",
+      "tr": "ma-kan / mat-rah",
+      "en": "Place, spot",
+      "cat": "location",
+      "pl": "أَماكِن",
+      "pltr": "a-ma-kin"
+    },
+    {
+      "ar": "وَإلّا",
+      "tr": "w-il-la",
+      "en": "Otherwise, or else",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مِن جِهة تانية",
+      "tr": "min ji-he tan-ye",
+      "en": "On the other hand",
+      "cat": "expressions"
+    },
+    {
+      "ar": "بِغَضّ النَّظَر",
+      "tr": "bi-ghadd en-na-zar",
+      "en": "Regardless",
+      "cat": "expressions"
+    },
+    {
+      "ar": "بِالرَّغم",
+      "tr": "bir-raghm",
+      "en": "Despite, even though",
+      "cat": "expressions"
+    },
+    {
+      "ar": "بِتصير",
+      "tr": "bit-sir",
+      "en": "It happens",
+      "cat": "expressions"
+    },
+    {
+      "ar": "لِسّا",
+      "tr": "lis-sa",
+      "en": "Still / (not) yet",
+      "cat": "time"
+    },
+    {
+      "ar": "ما عاد",
+      "tr": "ma 3ad",
+      "en": "No longer (I changed my mind)",
+      "cat": "expressions"
+    },
+    {
+      "ar": "ما ضَلّ في",
+      "tr": "ma dall fi",
+      "en": "There's none left",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مُمكِن / إحتِمال",
+      "tr": "mum-kin / ih-ti-mal",
+      "en": "It's possible, maybe",
+      "cat": "expressions"
+    },
+    {
+      "ar": "قَدّ ما",
+      "tr": "2add ma",
+      "en": "As much as",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مِن بين",
+      "tr": "min bein",
+      "en": "Among, out of",
+      "cat": "location"
+    },
+    {
+      "ar": "كان المَفروض",
+      "tr": "kan el-maf-roud",
+      "en": "Should have, was supposed to",
+      "cat": "expressions"
+    },
+    {
+      "ar": "كان لازِم",
+      "tr": "kan la-zim",
+      "en": "Had to",
+      "cat": "expressions"
+    },
+    {
+      "ar": "تْرَدَّد / يِتْرَدَّد",
+      "tr": "t-rad-dad / yit-rad-dad",
+      "en": "To hesitate",
+      "cat": "verbs"
+    },
+    {
+      "ar": "اِستَأجَر / يِستَأجِر",
+      "tr": "sta2-jar / yis-ta2-jir",
+      "en": "To rent",
+      "cat": "verbs"
+    },
+    {
+      "ar": "سَأَل / يِسأَل",
+      "tr": "sa-2al / yis-2al",
+      "en": "To ask",
+      "cat": "verbs"
+    },
+    {
+      "ar": "طَبيعة",
+      "tr": "ta-bi-3a",
+      "en": "Nature",
+      "cat": "nature"
+    },
+    {
+      "ar": "نَصيحة",
+      "tr": "na-si-ha",
+      "en": "Advice",
+      "cat": "ideas",
+      "pl": "نَصايِح",
+      "pltr": "na-sa-yih"
+    },
+    {
+      "ar": "هَدَف",
+      "tr": "ha-daf",
+      "en": "Goal",
+      "cat": "ideas",
+      "pl": "أَهداف",
+      "pltr": "ah-daf"
+    },
+    {
+      "ar": "زِراعة",
+      "tr": "zi-ra-3a",
+      "en": "Agriculture",
+      "cat": "nature"
+    },
+    {
+      "ar": "عُلوم سِياسِيّة",
+      "tr": "3u-loum si-ya-siy-ye",
+      "en": "Political science",
+      "cat": "study"
+    },
+    {
+      "ar": "بِجَنِّن",
+      "tr": "bi-jan-nin",
+      "en": "Stunning, gorgeous",
+      "cat": "adj"
+    },
+    {
+      "ar": "التَّواصُل الإجتِماعي",
+      "tr": "et-ta-wa-sul el-ij-ti-ma-3i",
+      "en": "Social media",
+      "cat": "things"
+    },
+    {
+      "ar": "قَرار",
+      "tr": "2a-rar",
+      "en": "Decision",
+      "cat": "ideas",
+      "pl": "قَرارات",
+      "pltr": "2a-ra-rat"
+    },
+    {
+      "ar": "الشَّرق الأَوسَط",
+      "tr": "esh-shar2 el-aw-sat",
+      "en": "Middle East",
+      "cat": "location"
+    },
+    {
+      "ar": "بِنَفسي",
+      "tr": "bi-naf-si",
+      "en": "(By) myself",
+      "cat": "pronouns"
+    },
+    {
+      "ar": "فَوراً",
+      "tr": "faw-ran",
+      "en": "Immediately",
+      "cat": "time"
+    },
+    {
+      "ar": "بِالأَخَصّ",
+      "tr": "bil-a-khass",
+      "en": "In particular",
+      "cat": "expressions"
+    },
+    {
+      "ar": "شَبَح",
+      "tr": "sha-bah",
+      "en": "Ghost",
+      "cat": "things",
+      "pl": "أَشباح",
+      "pltr": "ash-bah"
+    },
+    {
+      "ar": "شْباط",
+      "tr": "shbat",
+      "en": "February",
+      "cat": "time"
+    },
+    {
+      "ar": "ضَيف",
+      "tr": "dayf",
+      "en": "Guest",
+      "cat": "people",
+      "pl": "ضْيوف",
+      "pltr": "dyouf"
+    },
+    {
+      "ar": "رَأي",
+      "tr": "ra2y",
+      "en": "Opinion",
+      "cat": "ideas",
+      "pl": "آراء",
+      "pltr": "a-ra2"
+    },
+    {
+      "ar": "زار / يزور",
+      "tr": "zar / y-zour",
+      "en": "To visit",
+      "cat": "verbs"
+    },
+    {
+      "ar": "أَزمة",
+      "tr": "az-me",
+      "en": "Crisis",
+      "cat": "society",
+      "pl": "أَزَمات",
+      "pltr": "a-za-mat"
+    },
+    {
+      "ar": "إقتِصادي / إقتِصادِيّة",
+      "tr": "iq-ti-sa-di / iq-ti-sa-diy-ye",
+      "en": "Economic",
+      "cat": "society"
+    },
+    {
+      "ar": "فَقر",
+      "tr": "fa2r",
+      "en": "Poverty",
+      "cat": "society"
+    },
+    {
+      "ar": "خَطّ الفَقر",
+      "tr": "khatt el-fa2r",
+      "en": "Poverty line",
+      "cat": "society"
+    },
+    {
+      "ar": "تَبادُل طُلّاب",
+      "tr": "ta-ba-dul tul-lab",
+      "en": "Student exchange",
+      "cat": "study"
+    },
+    {
+      "ar": "جامْعة",
+      "tr": "jam-3a",
+      "en": "University",
+      "cat": "study",
+      "pl": "جامْعات",
+      "pltr": "jam-3at"
+    },
+    {
+      "ar": "دَوام",
+      "tr": "da-wam",
+      "en": "Working / class hours",
+      "cat": "work"
+    },
+    {
+      "ar": "تْخَرَّج / يِتْخَرَّج",
+      "tr": "t-khar-raj / yit-khar-raj",
+      "en": "To graduate",
+      "cat": "verbs"
+    },
+    {
+      "ar": "تْطَوَّع / يِتْطَوَّع",
+      "tr": "t-taw-wa3 / yit-taw-wa3",
+      "en": "To volunteer",
+      "cat": "verbs"
+    },
+    {
+      "ar": "قَدَّم عَ",
+      "tr": "2ad-dam 3a",
+      "en": "To apply for",
+      "cat": "work"
+    },
+    {
+      "ar": "طُموح",
+      "tr": "tu-mouh",
+      "en": "Ambition",
+      "cat": "people",
+      "pl": "طُموحات",
+      "pltr": "tu-mou-hat"
+    },
+    {
+      "ar": "شَغَف",
+      "tr": "sha-ghaf",
+      "en": "Passion",
+      "cat": "people"
+    },
+    {
+      "ar": "مَصروف",
+      "tr": "mas-rouf",
+      "en": "Pocket money, allowance",
+      "cat": "things"
+    },
+    {
+      "ar": "مُستَحيل",
+      "tr": "mus-ta-hil",
+      "en": "Impossible",
+      "cat": "adj"
+    },
+    {
+      "ar": "جاهِز",
+      "tr": "ja-hiz",
+      "en": "Ready, ready-made",
+      "cat": "adj"
+    },
+    {
+      "ar": "ذَنب",
+      "tr": "zanb",
+      "en": "Fault",
+      "cat": "people",
+      "pl": "ذْنوب",
+      "pltr": "znoub"
+    },
+    {
+      "ar": "خَدوم",
+      "tr": "kha-doum",
+      "en": "Helpful, obliging",
+      "cat": "adj"
+    },
+    {
+      "ar": "مِضياف",
+      "tr": "mid-yaf",
+      "en": "Hospitable",
+      "cat": "adj"
+    },
+    {
+      "ar": "مِتحَمِّس / مِتحَمِّسة",
+      "tr": "mit-ham-mis / mit-ham-mi-se",
+      "en": "Excited (m./f.)",
+      "cat": "people"
+    },
+    {
+      "ar": "تْخَيَّل / يِتْخَيَّل",
+      "tr": "t-khay-yal / yit-khay-yal",
+      "en": "To imagine",
+      "cat": "verbs"
+    },
+    {
+      "ar": "اِستَغرَب / يِستَغرِب",
+      "tr": "stagh-rab / yis-tagh-rib",
+      "en": "To be surprised",
+      "cat": "verbs"
+    },
+    {
+      "ar": "تَفصيل",
+      "tr": "taf-sil",
+      "en": "Detail",
+      "cat": "ideas",
+      "pl": "تَفاصيل",
+      "pltr": "ta-fa-sil"
+    },
+    {
+      "ar": "زاوية",
+      "tr": "za-wye",
+      "en": "Angle, corner",
+      "cat": "ideas",
+      "pl": "زَوايا",
+      "pltr": "za-wa-ya"
+    },
+    {
+      "ar": "غَيَّر / يغَيِّر",
+      "tr": "ghay-yar / y-ghay-yir",
+      "en": "To change",
+      "cat": "verbs"
+    },
+    {
+      "ar": "نَصَح / يِنصَح",
+      "tr": "na-sah / yin-sah",
+      "en": "To advise",
+      "cat": "verbs"
+    },
+    {
+      "ar": "طَقس",
+      "tr": "ta2s",
+      "en": "Weather",
+      "cat": "weather"
+    },
+    {
+      "ar": "عَزَم / يِعزُم",
+      "tr": "3a-zam / yi3-zom",
+      "en": "To invite",
+      "cat": "verbs"
+    },
+    {
+      "ar": "اِهتَمّ بـ / يِهتَمّ",
+      "tr": "h-tamm b- / yih-tamm",
+      "en": "To care about",
+      "cat": "verbs"
+    },
+    {
+      "ar": "شْمال",
+      "tr": "shmal",
+      "en": "North",
+      "cat": "location"
+    },
+    {
+      "ar": "جْنوب",
+      "tr": "jnoub",
+      "en": "South",
+      "cat": "location"
+    },
+    {
+      "ar": "شَرق",
+      "tr": "shar2",
+      "en": "East",
+      "cat": "location"
+    },
+    {
+      "ar": "الدِّبلوماسِيّة",
+      "tr": "id-dib-lo-ma-siy-ye",
+      "en": "Diplomacy",
+      "cat": "politics"
+    },
+    {
+      "ar": "مَجلِس الأَمن",
+      "tr": "maj-lis el-amn",
+      "en": "Security Council",
+      "cat": "politics"
+    },
+    {
+      "ar": "مُعاهَدة",
+      "tr": "mu-3a-ha-de",
+      "en": "Treaty",
+      "cat": "politics",
+      "pl": "مُعاهَدات",
+      "pltr": "mu-3a-ha-dat"
+    },
+    {
+      "ar": "تَحالُف",
+      "tr": "ta-ha-luf",
+      "en": "Alliance",
+      "cat": "politics",
+      "pl": "تَحالُفات",
+      "pltr": "ta-ha-lu-fat"
+    },
+    {
+      "ar": "صِراع",
+      "tr": "si-ra3",
+      "en": "Conflict",
+      "cat": "politics",
+      "pl": "صِراعات",
+      "pltr": "si-ra-3at"
+    },
+    {
+      "ar": "سَلام",
+      "tr": "sa-lam",
+      "en": "Peace",
+      "cat": "politics"
+    },
+    {
+      "ar": "سِيادة",
+      "tr": "si-ya-de",
+      "en": "Sovereignty",
+      "cat": "politics"
+    },
+    {
+      "ar": "اِشتَقتِلَّك",
+      "tr": "ish-ta2-til-lak",
+      "en": "I missed you",
+      "cat": "expressions"
+    },
+    {
+      "ar": "أنا مِشتاقْلَك",
+      "tr": "ana mish-ta2-lak",
+      "en": "I miss you",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مِشتاق / مِشتاقة",
+      "tr": "mish-ta2 / mish-ta2-a",
+      "en": "Missing someone (m./f.)",
+      "cat": "people"
+    },
+    {
+      "ar": "صُبح",
+      "tr": "subh",
+      "en": "Morning",
+      "cat": "time"
+    },
+    {
+      "ar": "عَصر",
+      "tr": "3asr",
+      "en": "Late afternoon; era",
+      "cat": "time",
+      "pl": "عُصور",
+      "pltr": "3u-sour"
+    },
+    {
+      "ar": "مَغرِب",
+      "tr": "magh-rib",
+      "en": "Sunset",
+      "cat": "time"
+    },
+    {
+      "ar": "عِلاقات دَولِيّة",
+      "tr": "3i-la-2at daw-liy-ye",
+      "en": "International relations",
+      "cat": "politics"
+    },
+    {
+      "ar": "مُفرَد",
+      "tr": "muf-rad",
+      "en": "Singular",
+      "cat": "study"
+    },
+    {
+      "ar": "جَمع",
+      "tr": "jam3",
+      "en": "Plural",
+      "cat": "study"
+    },
+    {
+      "ar": "مُثير",
+      "tr": "mu-thir",
+      "en": "Interesting, exciting",
+      "cat": "adj"
+    },
+    {
+      "ar": "مُحَفِّز لِلتَّفكير",
+      "tr": "mu-haf-fiz lit-taf-kir",
+      "en": "Thought-provoking",
+      "cat": "adj"
+    },
+    {
+      "ar": "بيثير الجَدَل",
+      "tr": "bi-thir el-ja-dal",
+      "en": "Controversial, provocative",
+      "cat": "adj"
+    },
+    {
+      "ar": "مَعنى",
+      "tr": "ma3-na",
+      "en": "Meaning",
+      "cat": "study",
+      "pl": "مَعاني",
+      "pltr": "ma-3a-ni"
+    },
+    {
+      "ar": "رْفيق / رْفيقة",
+      "tr": "rfi2 / rfi2-a",
+      "en": "Friend, comrade (m./f.)",
+      "cat": "people",
+      "pl": "رْفقات",
+      "pltr": "rfa2-at"
+    },
+    {
+      "ar": "مَرّ / يمُرّ بـ / عَ",
+      "tr": "marr / y-murr b- / 3a",
+      "en": "To pass by (عَ = drop in)",
+      "cat": "verbs"
+    },
+    {
+      "ar": "حَبس / سِجن",
+      "tr": "habs / sijn",
+      "en": "Prison",
+      "cat": "society",
+      "pl": "سْجون",
+      "pltr": "sjoun"
+    },
+    {
+      "ar": "جاف",
+      "tr": "jaff",
+      "en": "Dry",
+      "cat": "adj"
+    },
+    {
+      "ar": "عايِش / حَيّ",
+      "tr": "3a-yish / hayy",
+      "en": "Alive",
+      "cat": "adj"
+    },
+    {
+      "ar": "مَيِّت",
+      "tr": "may-yit",
+      "en": "Dead",
+      "cat": "adj"
+    },
+    {
+      "ar": "حَقيقي",
+      "tr": "ha-2i-2i",
+      "en": "Real",
+      "cat": "adj"
+    },
+    {
+      "ar": "مْزَيَّف",
+      "tr": "m-zay-yaf",
+      "en": "Fake",
+      "cat": "adj"
+    },
+    {
+      "ar": "عاصِف",
+      "tr": "3a-sif",
+      "en": "Stormy",
+      "cat": "weather"
+    },
+    {
+      "ar": "ضَباب",
+      "tr": "da-bab",
+      "en": "Fog, foggy",
+      "cat": "weather"
+    },
+    {
+      "ar": "قوس قُزَح",
+      "tr": "2aws 2u-zah",
+      "en": "Rainbow",
+      "cat": "weather"
+    },
+    {
+      "ar": "تَحليل",
+      "tr": "tah-lil",
+      "en": "Medical test",
+      "cat": "health",
+      "pl": "تَحاليل",
+      "pltr": "ta-ha-lil"
+    },
+    {
+      "ar": "خَطير",
+      "tr": "kha-tir",
+      "en": "Dangerous, serious",
+      "cat": "adj"
+    },
+    {
+      "ar": "مِتأخِّر",
+      "tr": "mit-akh-khir",
+      "en": "Late",
+      "cat": "adj"
+    },
+    {
+      "ar": "تْأَخَّر / يِتْأَخَّر",
+      "tr": "t-akh-khar / yit-akh-khar",
+      "en": "To be late",
+      "cat": "verbs"
+    },
+    {
+      "ar": "آمَن / يآمِن بـ",
+      "tr": "a-man / y-a-min b-",
+      "en": "To believe in",
+      "cat": "verbs"
+    },
+    {
+      "ar": "صَدَّق / يصَدِّق",
+      "tr": "sad-da2 / y-sad-di2",
+      "en": "To believe (someone)",
+      "cat": "verbs"
+    },
+    {
+      "ar": "التَّبصير",
+      "tr": "et-tab-sir",
+      "en": "Fortune telling (coffee reading)",
+      "cat": "society"
+    },
+    {
+      "ar": "تْسَلّى / يِتْسَلّى",
+      "tr": "t-sal-la / yit-sal-la",
+      "en": "To have fun",
+      "cat": "verbs"
+    },
+    {
+      "ar": "دَعَم / يِدعَم",
+      "tr": "da-3am / yid-3am",
+      "en": "To support",
+      "cat": "verbs"
+    },
+    {
+      "ar": "أَرَق",
+      "tr": "a-ra2",
+      "en": "Insomnia",
+      "cat": "health"
+    },
+    {
+      "ar": "مَزَح / يِمزَح",
+      "tr": "ma-zah / yim-zah",
+      "en": "To joke",
+      "cat": "verbs"
+    },
+    {
+      "ar": "مُدَرَّج",
+      "tr": "mu-dar-raj",
+      "en": "Amphitheatre",
+      "cat": "places",
+      "pl": "مُدَرَّجات",
+      "pltr": "mu-dar-ra-jat"
+    },
+    {
+      "ar": "عامود",
+      "tr": "3a-moud",
+      "en": "Column, pillar",
+      "cat": "places",
+      "pl": "أَعمِدة",
+      "pltr": "a3-mi-de"
+    },
+    {
+      "ar": "سور",
+      "tr": "sour",
+      "en": "City wall",
+      "cat": "places",
+      "pl": "أَسوار",
+      "pltr": "as-war"
+    },
+    {
+      "ar": "آثار",
+      "tr": "a-thar",
+      "en": "Antiquities, ruins",
+      "cat": "places"
+    },
+    {
+      "ar": "إستِقلال",
+      "tr": "is-ti2-lal",
+      "en": "Independence",
+      "cat": "politics"
+    },
+    {
+      "ar": "مُحتَلّ / مُحتَلّة",
+      "tr": "muh-tall / muh-tal-le",
+      "en": "Occupied",
+      "cat": "politics"
+    },
+    {
+      "ar": "إحتِلال",
+      "tr": "ih-ti-lal",
+      "en": "Occupation",
+      "cat": "politics"
+    },
+    {
+      "ar": "مُؤَنَّث",
+      "tr": "mu-an-nath",
+      "en": "Feminine",
+      "cat": "study"
+    },
+    {
+      "ar": "مُذَكَّر",
+      "tr": "mu-dhak-kar",
+      "en": "Masculine",
+      "cat": "study"
+    },
+    {
+      "ar": "عَصفور",
+      "tr": "3as-four",
+      "en": "Bird",
+      "cat": "nature",
+      "pl": "عَصافير",
+      "pltr": "3a-sa-fir"
+    },
+    {
+      "ar": "نَتيجة",
+      "tr": "na-ti-je",
+      "en": "Result",
+      "cat": "ideas",
+      "pl": "نَتايِج",
+      "pltr": "na-ta-yij"
+    },
+    {
+      "ar": "بَول",
+      "tr": "bawl",
+      "en": "Urine",
+      "cat": "health"
+    },
+    {
+      "ar": "جامِع",
+      "tr": "ja-mi3",
+      "en": "Mosque",
+      "cat": "places",
+      "pl": "جَوامِع",
+      "pltr": "ja-wa-mi3"
+    },
+    {
+      "ar": "مْدَمَّر / مْدَمَّرة",
+      "tr": "m-dam-mar / m-dam-ma-ra",
+      "en": "Destroyed",
+      "cat": "adj"
+    },
+    {
+      "ar": "دْهان",
+      "tr": "dhan",
+      "en": "Wall paint",
+      "cat": "things"
+    },
+    {
+      "ar": "دَهِن",
+      "tr": "da-hin",
+      "en": "Painting (walls)",
+      "cat": "things"
+    },
+    {
+      "ar": "حيط",
+      "tr": "hit",
+      "en": "Wall",
+      "cat": "things",
+      "pl": "حيطان",
+      "pltr": "hi-tan"
+    },
+    {
+      "ar": "فات / يفوت",
+      "tr": "fat / y-fout",
+      "en": "To enter, go in",
+      "cat": "verbs"
+    },
+    {
+      "ar": "عَلاقة",
+      "tr": "3a-la-2a",
+      "en": "Relation(ship)",
+      "cat": "politics",
+      "pl": "عَلاقات",
+      "pltr": "3a-la-2at"
+    },
+    {
+      "ar": "دَوْلي / دَوْلِيّة",
+      "tr": "daw-li / daw-liy-ye",
+      "en": "International",
+      "cat": "politics"
+    },
+    {
+      "ar": "عِلم",
+      "tr": "3ilm",
+      "en": "Science",
+      "cat": "study",
+      "pl": "عُلوم",
+      "pltr": "3u-loum"
+    },
+    {
+      "ar": "سِياسي / سِياسِيّة",
+      "tr": "si-ya-si / si-ya-siy-ye",
+      "en": "Political; politician",
+      "cat": "politics",
+      "pl": "سِياسِيّين",
+      "pltr": "si-ya-siy-yin"
+    },
+    {
+      "ar": "سِياسة",
+      "tr": "si-ya-se",
+      "en": "Politics, policy",
+      "cat": "politics",
+      "pl": "سِياسات",
+      "pltr": "si-ya-sat"
+    },
+    {
+      "ar": "حُكومة",
+      "tr": "hu-kou-me",
+      "en": "Government",
+      "cat": "politics",
+      "pl": "حُكومات",
+      "pltr": "hu-kou-mat"
+    },
+    {
+      "ar": "السِّياسة الخارجِيّة",
+      "tr": "es-si-ya-se el-kha-ri-jiy-ye",
+      "en": "Foreign policy",
+      "cat": "politics"
+    },
+    {
+      "ar": "نِظام",
+      "tr": "ni-zam",
+      "en": "Regime, system",
+      "cat": "politics",
+      "pl": "أَنظِمة",
+      "pltr": "an-zi-me"
+    },
+    {
+      "ar": "إنقِلاب عَسكَري",
+      "tr": "in-2i-lab 3as-ka-ri",
+      "en": "Military coup",
+      "cat": "politics",
+      "pl": "إنقِلابات",
+      "pltr": "in-2i-la-bat"
+    },
+    {
+      "ar": "قَبضة حَديدِيّة",
+      "tr": "2ab-de ha-di-diy-ye",
+      "en": "Iron fist",
+      "cat": "politics"
+    },
+    {
+      "ar": "مَجزَرة",
+      "tr": "maj-za-ra",
+      "en": "Massacre",
+      "cat": "politics",
+      "pl": "مَجازِر",
+      "pltr": "ma-ja-zir"
+    },
+    {
+      "ar": "تَوريث",
+      "tr": "taw-rith",
+      "en": "Succession (inheriting power)",
+      "cat": "politics"
+    },
+    {
+      "ar": "عَشيرة",
+      "tr": "3a-shi-re",
+      "en": "Clan, tribe",
+      "cat": "politics",
+      "pl": "عَشايِر",
+      "pltr": "3a-sha-yir"
+    },
+    {
+      "ar": "عَلَوي",
+      "tr": "3a-la-wi",
+      "en": "Alawite",
+      "cat": "society",
+      "pl": "عَلَوِيّين",
+      "pltr": "3a-la-wiy-yin"
+    },
+    {
+      "ar": "المُخابَرات",
+      "tr": "el-mu-kha-ba-rat",
+      "en": "Intelligence services",
+      "cat": "politics"
+    },
+    {
+      "ar": "الفِرقة الرّابعة",
+      "tr": "el-fir-2a er-rab-3a",
+      "en": "Fourth Division",
+      "cat": "politics"
+    },
+    {
+      "ar": "سِلاح كيماوي",
+      "tr": "si-lah ki-ma-wi",
+      "en": "Chemical weapons",
+      "cat": "politics",
+      "pl": "أَسلِحة كيماوِيّة",
+      "pltr": "as-li-ha ki-ma-wiy-ye"
+    },
+    {
+      "ar": "مُعارَضة",
+      "tr": "mu-3a-ra-da",
+      "en": "Opposition",
+      "cat": "politics"
+    },
+    {
+      "ar": "هَيئة تَحرير الشّام",
+      "tr": "hay-2et tah-rir esh-sham",
+      "en": "Hayat Tahrir al-Sham",
+      "cat": "politics"
+    },
+    {
+      "ar": "سُقوط",
+      "tr": "su-2out",
+      "en": "Fall, collapse",
+      "cat": "politics"
+    },
+    {
+      "ar": "هِرِب / يِهرُب",
+      "tr": "hi-rib / yih-rob",
+      "en": "To flee, escape",
+      "cat": "verbs"
+    },
+    {
+      "ar": "تِمثال",
+      "tr": "tim-thal",
+      "en": "Statue",
+      "cat": "places",
+      "pl": "تَماثيل",
+      "pltr": "ta-ma-thil"
+    },
+    {
+      "ar": "أَصل",
+      "tr": "asl",
+      "en": "Origin",
+      "cat": "ideas",
+      "pl": "أُصول",
+      "pltr": "u-soul"
+    },
+    {
+      "ar": "قَرية",
+      "tr": "2ar-ye",
+      "en": "Village (formal; = ضيعة)",
+      "cat": "places",
+      "pl": "قُرى",
+      "pltr": "2u-ra"
+    },
+    {
+      "ar": "مُحافَظة",
+      "tr": "mu-ha-fa-za",
+      "en": "Governorate",
+      "cat": "politics",
+      "pl": "مُحافَظات",
+      "pltr": "mu-ha-fa-zat"
+    },
+    {
+      "ar": "لَقَب",
+      "tr": "la-2ab",
+      "en": "Surname, title",
+      "cat": "people",
+      "pl": "أَلقاب",
+      "pltr": "al-2ab"
+    },
+    {
+      "ar": "وَحش",
+      "tr": "wahsh",
+      "en": "Beast",
+      "cat": "nature",
+      "pl": "وْحوش",
+      "pltr": "whoush"
+    },
+    {
+      "ar": "أَسَد",
+      "tr": "a-sad",
+      "en": "Lion",
+      "cat": "nature",
+      "pl": "أُسود",
+      "pltr": "u-soud"
+    },
+    {
+      "ar": "سُلطة",
+      "tr": "sul-ta",
+      "en": "Power, authority",
+      "cat": "politics",
+      "pl": "سُلُطات",
+      "pltr": "su-lu-tat"
+    },
+    {
+      "ar": "اِنوَلَد / يِنوِلِد",
+      "tr": "in-wa-lad / yin-wi-lid",
+      "en": "To be born",
+      "cat": "verbs"
+    },
+    {
+      "ar": "الكُلِّيّة العَسكَرِيّة",
+      "tr": "el-kul-liy-ye el-3as-ka-riy-ye",
+      "en": "Military academy",
+      "cat": "politics"
+    },
+    {
+      "ar": "عَسكَري",
+      "tr": "3as-ka-ri",
+      "en": "Military; soldier",
+      "cat": "politics",
+      "pl": "عَساكِر",
+      "pltr": "3a-sa-kir"
+    },
+    {
+      "ar": "سَمّى / يسَمّي",
+      "tr": "sam-ma / y-sam-mi",
+      "en": "To name, call",
+      "cat": "verbs"
+    },
+    {
+      "ar": "حَرَكة",
+      "tr": "ha-ra-ke",
+      "en": "Movement",
+      "cat": "politics",
+      "pl": "حَرَكات",
+      "pltr": "ha-ra-kat"
+    },
+    {
+      "ar": "أَطاح بـ",
+      "tr": "a-tah b-",
+      "en": "To overthrow, oust",
+      "cat": "politics"
+    },
+    {
+      "ar": "رَئيس",
+      "tr": "ra-2is",
+      "en": "President, head",
+      "cat": "politics",
+      "pl": "رُؤَسا",
+      "pltr": "ru-2a-sa"
+    },
+    {
+      "ar": "رَئيس الجُمهورِيّة",
+      "tr": "ra-2is el-jum-hu-riy-ye",
+      "en": "President of the Republic",
+      "cat": "politics"
+    },
+    {
+      "ar": "رِحِم / يِرحَم",
+      "tr": "ri-him / yir-ham",
+      "en": "To have mercy",
+      "cat": "verbs"
+    },
+    {
+      "ar": "قام / يقوم",
+      "tr": "2am / y-2oum",
+      "en": "To rise up, break out",
+      "cat": "verbs"
+    },
+    {
+      "ar": "الإخوان المُسلِمين",
+      "tr": "el-ikh-wan el-mus-li-min",
+      "en": "Muslim Brotherhood",
+      "cat": "politics"
+    },
+    {
+      "ar": "أَمَر / يُؤمُر",
+      "tr": "a-mar / yu2-mur",
+      "en": "To order, command",
+      "cat": "verbs"
+    },
+    {
+      "ar": "جَيش",
+      "tr": "jaysh",
+      "en": "Army",
+      "cat": "politics",
+      "pl": "جْيوش",
+      "pltr": "jyoush"
+    },
+    {
+      "ar": "حاصَر / يحاصِر",
+      "tr": "ha-sar / y-ha-sir",
+      "en": "To besiege",
+      "cat": "politics"
+    },
+    {
+      "ar": "قَصَف / يِقصُف",
+      "tr": "2a-saf / yi2-sof",
+      "en": "To bombard, shell",
+      "cat": "politics"
+    },
+    {
+      "ar": "قَصف",
+      "tr": "2asf",
+      "en": "Bombardment",
+      "cat": "politics"
+    },
+    {
+      "ar": "اِستَمَرّ / يِستَمِرّ",
+      "tr": "s-ta-marr / yis-ta-mirr",
+      "en": "To continue, last",
+      "cat": "verbs"
+    },
+    {
+      "ar": "مات / يموت",
+      "tr": "mat / y-mout",
+      "en": "To die",
+      "cat": "verbs"
+    },
+    {
+      "ar": "مُعظَم",
+      "tr": "mu3-zam",
+      "en": "Most (of)",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مَدَني / مَدَنِيّة",
+      "tr": "ma-da-ni / ma-da-niy-ye",
+      "en": "Civilian (m./f.)",
+      "cat": "politics",
+      "pl": "مَدَنِيّين",
+      "pltr": "ma-da-niy-yin"
+    },
+    {
+      "ar": "دَخَل / يُدخُل",
+      "tr": "da-khal / yud-khol",
+      "en": "To enter; to intervene",
+      "cat": "verbs"
+    },
+    {
+      "ar": "قُوّة",
+      "tr": "2uw-we",
+      "en": "Force, strength",
+      "cat": "politics",
+      "pl": "قُوّات",
+      "pltr": "2uw-wat"
     }
   ]
 }
