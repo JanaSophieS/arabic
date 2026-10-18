@@ -267,6 +267,10 @@
     {
       "start": 811,
       "date": "2026-10-12"
+    },
+    {
+      "start": 993,
+      "date": "2026-10-18"
     }
   ],
   "words": [
@@ -3365,7 +3369,7 @@
     {
       "ar": "دَقّ",
       "tr": "da22 / bi-du22",
-      "en": "to knock, ring, hammer",
+      "en": "To knock, ring, call (phone)",
       "cat": "verbs"
     },
     {
@@ -3746,12 +3750,14 @@
       "ar": "بِشِع",
       "tr": "bi-shi3",
       "en": "Ugly",
-      "cat": "adj"
+      "cat": "adj",
+      "pl": "بِشعين",
+      "pltr": "bish-3in"
     },
     {
       "ar": "سَهِل",
       "tr": "sa-hil",
-      "en": "Easy",
+      "en": "Easy; plain (flat land)",
       "cat": "adj"
     },
     {
@@ -3799,7 +3805,7 @@
     {
       "ar": "طَيِّب",
       "tr": "tay-yib",
-      "en": "Delicious, good",
+      "en": "Delicious; kind, good",
       "cat": "adj"
     },
     {
@@ -4835,10 +4841,12 @@
       "cat": "adj"
     },
     {
-      "ar": "حَسّاسة",
-      "tr": "has-sa-se",
-      "en": "Sensitive (f.)",
-      "cat": "adj"
+      "ar": "حَسّاس / حَسّاسة",
+      "tr": "has-sas / has-sa-se",
+      "en": "Sensitive (m./f.)",
+      "cat": "adj",
+      "pl": "حَسّاسين",
+      "pltr": "has-sa-sin"
     },
     {
       "ar": "ضَعيف / ضَعيفة",
@@ -6585,6 +6593,486 @@
       "cat": "politics",
       "pl": "قُوّات",
       "pltr": "2uw-wat"
+    },
+    {
+      "ar": "قَتَل / يِقتُل",
+      "tr": "2a-tal / yi2-tol",
+      "en": "To kill, murder",
+      "cat": "society"
+    },
+    {
+      "ar": "خَطَف / يِخطُف",
+      "tr": "kha-taf / yikh-tof",
+      "en": "To kidnap, snatch",
+      "cat": "society"
+    },
+    {
+      "ar": "سَرَق / يِسرُق",
+      "tr": "sa-ra2 / yis-ro2",
+      "en": "To steal",
+      "cat": "society"
+    },
+    {
+      "ar": "نَشَل / يِنشُل",
+      "tr": "na-shal / yin-shol",
+      "en": "To pickpocket; to pull out",
+      "cat": "society"
+    },
+    {
+      "ar": "اِنقَتَل / يِنقِتِل",
+      "tr": "n2a-tal / yin2-i-til",
+      "en": "To be killed",
+      "cat": "society"
+    },
+    {
+      "ar": "اِنخَطَف / يِنخِطِف",
+      "tr": "n-kha-taf / yin-khi-tif",
+      "en": "To be kidnapped",
+      "cat": "society"
+    },
+    {
+      "ar": "اِنسَرَق / يِنسِرِق",
+      "tr": "n-sa-ra2 / yin-si-ri2",
+      "en": "To be stolen",
+      "cat": "society"
+    },
+    {
+      "ar": "اِنتَحَر / يِنتِحِر",
+      "tr": "n-ta-har / yin-ti-hir",
+      "en": "To commit suicide",
+      "cat": "society"
+    },
+    {
+      "ar": "اِنعَمَل / يِنعِمِل",
+      "tr": "n3a-mal / yin3-i-mil",
+      "en": "To be done, be made",
+      "cat": "verbs"
+    },
+    {
+      "ar": "تْسَكَّر / يِتْسَكَّر",
+      "tr": "t-sak-kar / yit-sak-kar",
+      "en": "To get closed / shut",
+      "cat": "verbs"
+    },
+    {
+      "ar": "اِنشال / يِنشال",
+      "tr": "n-shal / yin-shal",
+      "en": "To be removed, taken away",
+      "cat": "verbs"
+    },
+    {
+      "ar": "مَعمول",
+      "tr": "ma3-moul",
+      "en": "Made, done",
+      "cat": "adj"
+    },
+    {
+      "ar": "مَقتول",
+      "tr": "ma2-toul",
+      "en": "Killed, murdered",
+      "cat": "society"
+    },
+    {
+      "ar": "خَزنة",
+      "tr": "khaz-ne",
+      "en": "Safe (for valuables)",
+      "cat": "things",
+      "pl": "خَزنات",
+      "pltr": "khaz-nat"
+    },
+    {
+      "ar": "حَوالي",
+      "tr": "ha-wa-lay",
+      "en": "About, approximately",
+      "cat": "expressions"
+    },
+    {
+      "ar": "بَوّاب",
+      "tr": "baw-wab",
+      "en": "Doorman, gatekeeper",
+      "cat": "jobs",
+      "pl": "بَوّابين",
+      "pltr": "baw-wa-bin"
+    },
+    {
+      "ar": "باب",
+      "tr": "bab",
+      "en": "Door",
+      "cat": "things",
+      "pl": "بْواب",
+      "pltr": "bwab"
+    },
+    {
+      "ar": "جارور / دُرج",
+      "tr": "ja-rour / durj",
+      "en": "Drawer",
+      "cat": "things",
+      "pl": "جَوارير",
+      "pltr": "ja-wa-rir"
+    },
+    {
+      "ar": "وَرقة",
+      "tr": "war-2a",
+      "en": "Sheet of paper; leaf",
+      "cat": "things",
+      "pl": "أَوراق",
+      "pltr": "aw-ra2"
+    },
+    {
+      "ar": "وَثيقة",
+      "tr": "wa-thi-2a",
+      "en": "(Official) document",
+      "cat": "society",
+      "pl": "وَثايِق",
+      "pltr": "wa-tha-yi2"
+    },
+    {
+      "ar": "مَحلا!",
+      "tr": "mah-la",
+      "en": "How nice! How beautiful!",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مَحَلّ",
+      "tr": "ma-hall",
+      "en": "Shop; place",
+      "cat": "places",
+      "pl": "مَحَلّات",
+      "pltr": "ma-hal-lat"
+    },
+    {
+      "ar": "مُحاسِب / مُحاسْبة",
+      "tr": "mu-ha-sib / mu-has-be",
+      "en": "Accountant (m./f.)",
+      "cat": "jobs",
+      "pl": "مُحاسْبين",
+      "pltr": "mu-has-bin"
+    },
+    {
+      "ar": "سِكرِتيرة",
+      "tr": "sik-ri-ti-re",
+      "en": "Secretary (f.)",
+      "cat": "jobs",
+      "pl": "سِكرِتيرات",
+      "pltr": "sik-ri-ti-rat"
+    },
+    {
+      "ar": "مُصيبة",
+      "tr": "mu-si-be",
+      "en": "Disaster, calamity",
+      "cat": "expressions",
+      "pl": "مَصايِب",
+      "pltr": "ma-sa-yib"
+    },
+    {
+      "ar": "مْعَقَّد / مْعَقَّدة",
+      "tr": "m-3a2-2ad / m-3a2-2a-de",
+      "en": "Complicated",
+      "cat": "adj"
+    },
+    {
+      "ar": "قايِد",
+      "tr": "2a-yid",
+      "en": "Leader, commander",
+      "cat": "politics",
+      "pl": "قادة",
+      "pltr": "2a-de"
+    },
+    {
+      "ar": "مُتَفَجِّرات",
+      "tr": "mu-ta-faj-ji-rat",
+      "en": "Explosives",
+      "cat": "politics"
+    },
+    {
+      "ar": "إنتِخابات",
+      "tr": "in-ti-kha-bat",
+      "en": "Elections",
+      "cat": "politics"
+    },
+    {
+      "ar": "وَريث",
+      "tr": "wa-rith",
+      "en": "Heir",
+      "cat": "politics",
+      "pl": "وَرَثة",
+      "pltr": "wa-ra-the"
+    },
+    {
+      "ar": "مُجرِم",
+      "tr": "muj-rim",
+      "en": "Criminal",
+      "cat": "society",
+      "pl": "مُجرِمين",
+      "pltr": "muj-ri-min"
+    },
+    {
+      "ar": "إقتِصاد",
+      "tr": "iq-ti-sad",
+      "en": "Economy",
+      "cat": "society"
+    },
+    {
+      "ar": "تْعَوَّد / يِتْعَوَّد",
+      "tr": "t-3aw-wad / yit-3aw-wad",
+      "en": "To get used to",
+      "cat": "verbs"
+    },
+    {
+      "ar": "عادة",
+      "tr": "3a-de",
+      "en": "Habit",
+      "cat": "people",
+      "pl": "عادات",
+      "pltr": "3a-dat"
+    },
+    {
+      "ar": "إستِراحة",
+      "tr": "is-ti-ra-ha",
+      "en": "Break, rest",
+      "cat": "work"
+    },
+    {
+      "ar": "بان / يبَيِّن",
+      "tr": "ban / y-bay-yin",
+      "en": "It appeared, it showed",
+      "cat": "verbs"
+    },
+    {
+      "ar": "جاب / يجيب",
+      "tr": "jab / y-jib",
+      "en": "To bring",
+      "cat": "verbs"
+    },
+    {
+      "ar": "ضَرَب / يِضرُب",
+      "tr": "da-rab / yid-rob",
+      "en": "To hit",
+      "cat": "verbs"
+    },
+    {
+      "ar": "لَحظة",
+      "tr": "lah-za",
+      "en": "Moment",
+      "cat": "time"
+    },
+    {
+      "ar": "دَرَّس / يدَرِّس",
+      "tr": "dar-ras / y-dar-ris",
+      "en": "To teach",
+      "cat": "verbs"
+    },
+    {
+      "ar": "حَمى / يِحمي",
+      "tr": "ha-ma / yih-mi",
+      "en": "To protect",
+      "cat": "verbs"
+    },
+    {
+      "ar": "سَميك",
+      "tr": "sa-mik",
+      "en": "Thick",
+      "cat": "adj"
+    },
+    {
+      "ar": "نَحيف",
+      "tr": "na-hif",
+      "en": "Thin",
+      "cat": "adj"
+    },
+    {
+      "ar": "اِحتاج / يِحتاج",
+      "tr": "h-taj / yih-taj",
+      "en": "To need",
+      "cat": "verbs"
+    },
+    {
+      "ar": "بِكي / يِبكي",
+      "tr": "bi-ki / yib-ki",
+      "en": "To cry",
+      "cat": "verbs"
+    },
+    {
+      "ar": "غُروب الشَّمس",
+      "tr": "ghu-roub esh-shams",
+      "en": "Sunset",
+      "cat": "time"
+    },
+    {
+      "ar": "شُروق الشَّمس",
+      "tr": "shu-rou2 esh-shams",
+      "en": "Sunrise",
+      "cat": "time"
+    },
+    {
+      "ar": "غَرب",
+      "tr": "gharb",
+      "en": "West",
+      "cat": "location"
+    },
+    {
+      "ar": "بَدال",
+      "tr": "ba-dal",
+      "en": "Instead (of)",
+      "cat": "expressions"
+    },
+    {
+      "ar": "وَدَّع / يوَدِّع",
+      "tr": "wad-da3 / y-wad-di3",
+      "en": "To say goodbye",
+      "cat": "verbs"
+    },
+    {
+      "ar": "وَقِح",
+      "tr": "wa-2ih",
+      "en": "Rude, cheeky",
+      "cat": "adj"
+    },
+    {
+      "ar": "تْخانَق / يِتْخانَق",
+      "tr": "t-kha-na2 / yit-kha-na2",
+      "en": "To argue, quarrel",
+      "cat": "verbs"
+    },
+    {
+      "ar": "تْواقَح / يِتْواقَح",
+      "tr": "t-wa-2ah / yit-wa-2ah",
+      "en": "To be rude",
+      "cat": "verbs"
+    },
+    {
+      "ar": "قَليل مُروّة",
+      "tr": "2a-lil mur-wi",
+      "en": "Lazy, no get-up-and-go",
+      "cat": "adj"
+    },
+    {
+      "ar": "عَلّى / يعَلّي",
+      "tr": "3al-la / y-3al-li",
+      "en": "To raise (e.g. your voice)",
+      "cat": "verbs"
+    },
+    {
+      "ar": "صوت",
+      "tr": "sout",
+      "en": "Voice, sound",
+      "cat": "things",
+      "pl": "أَصوات",
+      "pltr": "as-wat"
+    },
+    {
+      "ar": "بَطَّل / يبَطِّل",
+      "tr": "bat-tal / y-bat-til",
+      "en": "To quit, stop",
+      "cat": "verbs"
+    },
+    {
+      "ar": "كَريم",
+      "tr": "ka-rim",
+      "en": "Generous",
+      "cat": "adj"
+    },
+    {
+      "ar": "بَخيل",
+      "tr": "ba-khil",
+      "en": "Stingy",
+      "cat": "adj"
+    },
+    {
+      "ar": "شُجاع",
+      "tr": "shu-ja3",
+      "en": "Brave",
+      "cat": "adj"
+    },
+    {
+      "ar": "جَبان",
+      "tr": "ja-ban",
+      "en": "Cowardly",
+      "cat": "adj"
+    },
+    {
+      "ar": "صادِق",
+      "tr": "sa-di2",
+      "en": "Honest",
+      "cat": "adj"
+    },
+    {
+      "ar": "كَذّاب",
+      "tr": "kaz-zab",
+      "en": "Liar, dishonest",
+      "cat": "adj"
+    },
+    {
+      "ar": "كَسول",
+      "tr": "ka-soul",
+      "en": "Lazy",
+      "cat": "adj"
+    },
+    {
+      "ar": "نَشيط",
+      "tr": "na-shit",
+      "en": "Active",
+      "cat": "adj"
+    },
+    {
+      "ar": "هادي",
+      "tr": "ha-di",
+      "en": "Calm",
+      "cat": "adj"
+    },
+    {
+      "ar": "عَصَبي",
+      "tr": "3a-sa-bi",
+      "en": "Nervous, short-tempered",
+      "cat": "adj"
+    },
+    {
+      "ar": "خَبيث",
+      "tr": "kha-bith",
+      "en": "Evil, malicious",
+      "cat": "adj"
+    },
+    {
+      "ar": "صَبور",
+      "tr": "sa-bour",
+      "en": "Patient",
+      "cat": "adj"
+    },
+    {
+      "ar": "عَجول",
+      "tr": "3a-joul",
+      "en": "Impatient",
+      "cat": "adj"
+    },
+    {
+      "ar": "مِتواضِع",
+      "tr": "mit-wa-di3",
+      "en": "Humble",
+      "cat": "adj"
+    },
+    {
+      "ar": "مِتكَبِّر",
+      "tr": "mit-kab-bir",
+      "en": "Arrogant",
+      "cat": "adj"
+    },
+    {
+      "ar": "وَفي",
+      "tr": "wa-fi",
+      "en": "Loyal",
+      "cat": "adj"
+    },
+    {
+      "ar": "غَدّار",
+      "tr": "ghad-dar",
+      "en": "Treacherous",
+      "cat": "adj"
+    },
+    {
+      "ar": "فَظّ",
+      "tr": "fazz",
+      "en": "Rude, harsh",
+      "cat": "adj"
     }
   ]
 }
