@@ -271,6 +271,10 @@
     {
       "start": 993,
       "date": "2026-10-18"
+    },
+    {
+      "start": 1068,
+      "date": "2026-10-24"
     }
   ],
   "words": [
@@ -1468,7 +1472,9 @@
       "ar": "بَحْث",
       "tr": "bahth",
       "en": "Research",
-      "cat": "study"
+      "cat": "study",
+      "pl": "أَبحاث",
+      "pltr": "ab-hath"
     },
     {
       "ar": "لُغة",
@@ -3102,7 +3108,9 @@
       "ar": "مُؤتَمَر",
       "tr": "mu2-ta-mar",
       "en": "Conference",
-      "cat": "work"
+      "cat": "work",
+      "pl": "مُؤتَمَرات",
+      "pltr": "mu2-ta-ma-rat"
     },
     {
       "ar": "مَشروع",
@@ -3146,7 +3154,9 @@
       "ar": "مُنَظَّمة",
       "tr": "mu-naz-za-me",
       "en": "Organization",
-      "cat": "work"
+      "cat": "work",
+      "pl": "مُنَظَّمات",
+      "pltr": "mu-naz-za-mat"
     },
     {
       "ar": "حَملة",
@@ -3965,7 +3975,7 @@
     {
       "ar": "تَرَك / يترك",
       "tr": "ta-rak / yit-rok",
-      "en": "To leave (behind)",
+      "en": "To leave (behind), to quit",
       "cat": "verbs"
     },
     {
@@ -7073,6 +7083,76 @@
       "tr": "fazz",
       "en": "Rude, harsh",
       "cat": "adj"
+    },
+    {
+      "ar": "أَواني نْحاس",
+      "tr": "a-wa-ni nhas",
+      "en": "Copper vessels",
+      "cat": "kitchen"
+    },
+    {
+      "ar": "غالِباً",
+      "tr": "gha-li-ban",
+      "en": "Often, usually",
+      "cat": "time"
+    },
+    {
+      "ar": "قَنَّع / يقَنِّع",
+      "tr": "2an-na3 / y-2an-ni3",
+      "en": "To convince (قِنِع = to be convinced)",
+      "cat": "verbs"
+    },
+    {
+      "ar": "مْعَصِّب / مْعَصّْبة",
+      "tr": "m-3as-sib / m-3as-be",
+      "en": "Angry (m./f.)",
+      "cat": "people",
+      "pl": "مْعَصّْبين",
+      "pltr": "m-3as-bin"
+    },
+    {
+      "ar": "ضَغط",
+      "tr": "daght",
+      "en": "Pressure",
+      "cat": "ideas"
+    },
+    {
+      "ar": "سَبَب",
+      "tr": "sa-bab",
+      "en": "Reason, cause",
+      "cat": "ideas",
+      "pl": "أَسباب",
+      "pltr": "as-bab"
+    },
+    {
+      "ar": "تْطَوَّر / يِتْطَوَّر",
+      "tr": "t-taw-war / yit-taw-war",
+      "en": "To develop, improve",
+      "cat": "verbs"
+    },
+    {
+      "ar": "نَظَّم / ينَظِّم",
+      "tr": "naz-zam / y-naz-zim",
+      "en": "To organise",
+      "cat": "verbs"
+    },
+    {
+      "ar": "مُمِلّ",
+      "tr": "mu-mill",
+      "en": "Boring",
+      "cat": "adj"
+    },
+    {
+      "ar": "تَعليم",
+      "tr": "ta3-lim",
+      "en": "Education",
+      "cat": "study"
+    },
+    {
+      "ar": "خِسِر / يِخسَر",
+      "tr": "khi-sir / yikh-sar",
+      "en": "To lose",
+      "cat": "verbs"
     }
   ]
 }
