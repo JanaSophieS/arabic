@@ -275,6 +275,10 @@
     {
       "start": 1068,
       "date": "2026-10-24"
+    },
+    {
+      "start": 1079,
+      "date": "2026-10-30"
     }
   ],
   "words": [
@@ -7153,6 +7157,318 @@
       "tr": "khi-sir / yikh-sar",
       "en": "To lose",
       "cat": "verbs"
+    },
+    {
+      "ar": "طَبَق",
+      "tr": "ta-ba2",
+      "en": "Dish, plate (of food)",
+      "cat": "food",
+      "pl": "أَطباق",
+      "pltr": "at-ba2"
+    },
+    {
+      "ar": "مْمَيَّز / مْمَيَّزة",
+      "tr": "m-may-yaz / m-may-ya-ze",
+      "en": "Special, distinctive",
+      "cat": "adj"
+    },
+    {
+      "ar": "وَجبة",
+      "tr": "waj-be",
+      "en": "Meal",
+      "cat": "food",
+      "pl": "وَجبات",
+      "pltr": "waj-bet"
+    },
+    {
+      "ar": "وَجبات خَفيفة",
+      "tr": "waj-bet kha-fi-fe",
+      "en": "Snacks",
+      "cat": "food"
+    },
+    {
+      "ar": "الوَجبة الرَّئيسِيّة",
+      "tr": "el-waj-be er-ra2-i-siy-ye",
+      "en": "Main dish",
+      "cat": "food"
+    },
+    {
+      "ar": "ذِكرى",
+      "tr": "zik-ra",
+      "en": "Memory",
+      "cat": "people",
+      "pl": "ذِكرَيات",
+      "pltr": "zik-ra-yet"
+    },
+    {
+      "ar": "جَمعة",
+      "tr": "jam3a",
+      "en": "Gathering (family, friends)",
+      "cat": "people",
+      "pl": "جَمعات",
+      "pltr": "jam-3at"
+    },
+    {
+      "ar": "شَخصِيّاً",
+      "tr": "shakh-siy-yan",
+      "en": "Personally",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مَعزوم / مَعزومة",
+      "tr": "ma3-zoum / ma3-zou-me",
+      "en": "Invited (m./f.)",
+      "cat": "people",
+      "pl": "مَعزومين",
+      "pltr": "ma3-zou-min"
+    },
+    {
+      "ar": "كِنّا مَعزومين",
+      "tr": "kin-na ma3-zou-min",
+      "en": "We were invited",
+      "cat": "expressions"
+    },
+    {
+      "ar": "حَلقة",
+      "tr": "hal-2a",
+      "en": "Episode",
+      "cat": "study",
+      "pl": "حَلَقات",
+      "pltr": "ha-la-2at"
+    },
+    {
+      "ar": "ثَقافة",
+      "tr": "tha-2a-fe",
+      "en": "Culture",
+      "cat": "society",
+      "pl": "ثَقافات",
+      "pltr": "tha-2a-fat"
+    },
+    {
+      "ar": "مَثَّل / يمَثِّل",
+      "tr": "mat-thal / y-mat-thil",
+      "en": "To represent",
+      "cat": "verbs"
+    },
+    {
+      "ar": "بِالخارِج",
+      "tr": "bil-kha-rij",
+      "en": "Abroad",
+      "cat": "location"
+    },
+    {
+      "ar": "رَمز",
+      "tr": "ramz",
+      "en": "Symbol",
+      "cat": "ideas",
+      "pl": "رُموز",
+      "pltr": "ru-mouz"
+    },
+    {
+      "ar": "رَمَز / يِرمُز لـ",
+      "tr": "ra-maz / yir-moz la",
+      "en": "To symbolise",
+      "cat": "verbs"
+    },
+    {
+      "ar": "سُفرة",
+      "tr": "suf-ra",
+      "en": "Dining table, food spread",
+      "cat": "food"
+    },
+    {
+      "ar": "فَتَح النَّفس",
+      "tr": "fa-tah en-nafs",
+      "en": "To whet the appetite",
+      "cat": "food"
+    },
+    {
+      "ar": "تْأَلَّف / يِتْأَلَّف مِن",
+      "tr": "t-al-laf / yit-al-laf min",
+      "en": "To consist of",
+      "cat": "verbs"
+    },
+    {
+      "ar": "عِبارة عَن",
+      "tr": "3i-ba-ra 3an",
+      "en": "Is basically, consists of",
+      "cat": "expressions"
+    },
+    {
+      "ar": "تْعَدَّد / يِتْعَدَّد",
+      "tr": "t-3ad-dad / yit-3ad-dad",
+      "en": "To vary, be numerous",
+      "cat": "verbs"
+    },
+    {
+      "ar": "خُضرا",
+      "tr": "khud-ra",
+      "en": "Vegetables",
+      "cat": "food"
+    },
+    {
+      "ar": "مَيَّز / يمَيِّز",
+      "tr": "may-yaz / y-may-yiz",
+      "en": "To distinguish",
+      "cat": "verbs"
+    },
+    {
+      "ar": "قَوّى / يقَوّي",
+      "tr": "2aw-wa / y-2aw-wi",
+      "en": "To strengthen",
+      "cat": "verbs"
+    },
+    {
+      "ar": "خَلَق / يِخلُق",
+      "tr": "kha-la2 / yikh-lo2",
+      "en": "To create",
+      "cat": "verbs"
+    },
+    {
+      "ar": "إجتِماعي / إجتِماعِيّة",
+      "tr": "ij-ti-ma-3i / ij-ti-ma-3iy-ye",
+      "en": "Social",
+      "cat": "society"
+    },
+    {
+      "ar": "قَريب / قَريبة",
+      "tr": "2a-rib / 2a-ri-be",
+      "en": "Relative (m./f.); near",
+      "cat": "family",
+      "pl": "قَرايِب",
+      "pltr": "2a-ra-yib"
+    },
+    {
+      "ar": "قَطَف / يِقطُف",
+      "tr": "2a-taf / yi2-tof",
+      "en": "To pick (fruit, herbs)",
+      "cat": "verbs"
+    },
+    {
+      "ar": "جْنينة",
+      "tr": "jni-ne",
+      "en": "Garden",
+      "cat": "nature",
+      "pl": "جَنايِن",
+      "pltr": "ja-na-yin"
+    },
+    {
+      "ar": "حَدّ",
+      "tr": "hadd",
+      "en": "Next to",
+      "cat": "location"
+    },
+    {
+      "ar": "طَبيعي / طَبيعِيّة",
+      "tr": "ta-bi-3i / ta-bi-3iy-ye",
+      "en": "Natural",
+      "cat": "adj"
+    },
+    {
+      "ar": "عُضوي",
+      "tr": "3ud-wi",
+      "en": "Organic",
+      "cat": "food"
+    },
+    {
+      "ar": "تْشارَك / يِتْشارَك",
+      "tr": "t-sha-rak / yit-sha-rak",
+      "en": "To share (together)",
+      "cat": "verbs"
+    },
+    {
+      "ar": "أَجواء",
+      "tr": "aj-wa2",
+      "en": "Atmosphere, vibe",
+      "cat": "ideas"
+    },
+    {
+      "ar": "داق / يدوق",
+      "tr": "da2 / y-dou2",
+      "en": "To taste",
+      "cat": "verbs"
+    },
+    {
+      "ar": "مُفَضَّل / مُفَضَّلة",
+      "tr": "mu-fad-dal / mu-fad-da-le",
+      "en": "Favourite",
+      "cat": "adj"
+    },
+    {
+      "ar": "إقتِراح",
+      "tr": "iq-ti-rah",
+      "en": "Suggestion",
+      "cat": "ideas",
+      "pl": "إقتِراحات",
+      "pltr": "iq-ti-ra-hat"
+    },
+    {
+      "ar": "تَعليق",
+      "tr": "ta3-li2",
+      "en": "Comment",
+      "cat": "ideas",
+      "pl": "تَعليقات",
+      "pltr": "ta3-li-2at"
+    },
+    {
+      "ar": "جُزء ما بيتجَزَّأ",
+      "tr": "juz2 ma bi-tjaz-za2",
+      "en": "Integral part",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مازة",
+      "tr": "ma-ze",
+      "en": "Mezza (shared starters)",
+      "cat": "food"
+    },
+    {
+      "ar": "فَتّوش",
+      "tr": "fat-toush",
+      "en": "Fattoush (bread salad)",
+      "cat": "food"
+    },
+    {
+      "ar": "مْتَبَّل",
+      "tr": "m-tab-bal",
+      "en": "Moutabal (eggplant dip)",
+      "cat": "food"
+    },
+    {
+      "ar": "بابا غَنّوج",
+      "tr": "ba-ba ghan-nouj",
+      "en": "Baba ghanouj",
+      "cat": "food"
+    },
+    {
+      "ar": "هِندبة",
+      "tr": "hin-d-be",
+      "en": "Hindbeh (sautéed chicory)",
+      "cat": "food"
+    },
+    {
+      "ar": "وَرَق عِنَب",
+      "tr": "wa-ra2 3i-nab",
+      "en": "Stuffed grape leaves",
+      "cat": "food"
+    },
+    {
+      "ar": "بَطاطا حَرّة",
+      "tr": "ba-ta-ta har-ra",
+      "en": "Spicy potatoes",
+      "cat": "food"
+    },
+    {
+      "ar": "كِبّة نَيّة",
+      "tr": "kib-be nay-ye",
+      "en": "Raw kibbeh",
+      "cat": "food"
+    },
+    {
+      "ar": "كِبّة مَقلِيّة",
+      "tr": "kib-be ma2-liy-ye",
+      "en": "Fried kibbeh",
+      "cat": "food"
     }
   ]
 }
