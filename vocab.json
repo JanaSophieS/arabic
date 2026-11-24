@@ -279,6 +279,10 @@
     {
       "start": 1079,
       "date": "2026-10-30"
+    },
+    {
+      "start": 1127,
+      "date": "2026-11-24"
     }
   ],
   "words": [
@@ -3927,9 +3931,9 @@
       "cat": "adj"
     },
     {
-      "ar": "قَوي",
-      "tr": "2a-wi",
-      "en": "Strong",
+      "ar": "قَوي / قَوِيّة",
+      "tr": "2a-wi / 2a-wiy-ye",
+      "en": "Strong (m./f.)",
       "cat": "adj"
     },
     {
@@ -7469,6 +7473,116 @@
       "tr": "kib-be ma2-liy-ye",
       "en": "Fried kibbeh",
       "cat": "food"
+    },
+    {
+      "ar": "قابَل / يقابِل",
+      "tr": "2a-bal / y-2a-bil",
+      "en": "To meet",
+      "cat": "verbs"
+    },
+    {
+      "ar": "شَخص",
+      "tr": "shakhs",
+      "en": "Person",
+      "cat": "people",
+      "pl": "أَشخاص",
+      "pltr": "ash-khas"
+    },
+    {
+      "ar": "مَعلومة",
+      "tr": "ma3-lou-me",
+      "en": "(A piece of) information",
+      "cat": "ideas",
+      "pl": "مَعلومات",
+      "pltr": "ma3-lou-mat"
+    },
+    {
+      "ar": "كَذا",
+      "tr": "ka-za",
+      "en": "Several, various",
+      "cat": "expressions"
+    },
+    {
+      "ar": "رِياضة",
+      "tr": "ri-ya-da",
+      "en": "Sport",
+      "cat": "things",
+      "pl": "رِياضات",
+      "pltr": "ri-ya-dat"
+    },
+    {
+      "ar": "أَقوى",
+      "tr": "a2-wa",
+      "en": "Stronger",
+      "cat": "adj"
+    },
+    {
+      "ar": "دِغري",
+      "tr": "digh-ri",
+      "en": "Directly, straight ahead",
+      "cat": "location"
+    },
+    {
+      "ar": "كُرة المَضرَب",
+      "tr": "ku-ret el-mad-rab",
+      "en": "Tennis",
+      "cat": "things"
+    },
+    {
+      "ar": "آلة",
+      "tr": "a-le",
+      "en": "Machine",
+      "cat": "things",
+      "pl": "آلات",
+      "pltr": "a-lat"
+    },
+    {
+      "ar": "تَمرين",
+      "tr": "tam-rin",
+      "en": "Exercise",
+      "cat": "things",
+      "pl": "تَمارين",
+      "pltr": "ta-ma-rin"
+    },
+    {
+      "ar": "بِالنِّسبة لـ",
+      "tr": "bin-nis-be la",
+      "en": "Regarding, compared to",
+      "cat": "expressions"
+    },
+    {
+      "ar": "عَلى كِلّ حال",
+      "tr": "3a-la kill hal",
+      "en": "Anyway, in any case",
+      "cat": "expressions"
+    },
+    {
+      "ar": "أَجار",
+      "tr": "a-jar",
+      "en": "Rent",
+      "cat": "things"
+    },
+    {
+      "ar": "إعلان",
+      "tr": "i3-lan",
+      "en": "Advertisement",
+      "cat": "things",
+      "pl": "إعلانات",
+      "pltr": "i3-la-nat"
+    },
+    {
+      "ar": "شَقّة",
+      "tr": "sha22-a",
+      "en": "Apartment",
+      "cat": "places",
+      "pl": "شُقَق",
+      "pltr": "shu-2a2"
+    },
+    {
+      "ar": "الظّاهِر",
+      "tr": "ez-za-hir",
+      "en": "Apparently",
+      "cat": "expressions"
     }
   ]
 }
