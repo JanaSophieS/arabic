@@ -283,6 +283,10 @@
     {
       "start": 1127,
       "date": "2026-11-24"
+    },
+    {
+      "start": 1143,
+      "date": "2026-11-26"
     }
   ],
   "words": [
@@ -1855,9 +1859,9 @@
       "cat": "kitchen"
     },
     {
-      "ar": "يَخلُط",
-      "tr": "yakh-lot",
-      "en": "To mix",
+      "ar": "خَلَط / يِخلُط",
+      "tr": "kha-lat / yikh-lot",
+      "en": "To mix (something)",
       "cat": "kitchen"
     },
     {
@@ -2507,7 +2511,7 @@
     {
       "ar": "جِلد",
       "tr": "jild",
-      "en": "Skin",
+      "en": "Skin; leather",
       "cat": "body",
       "pl": "جُلود",
       "pltr": "ju-loud"
@@ -2917,8 +2921,10 @@
     {
       "ar": "مَوقِع",
       "tr": "mou-2i3",
-      "en": "Location",
-      "cat": "places"
+      "en": "Location; website",
+      "cat": "places",
+      "pl": "مَواقِع",
+      "pltr": "ma-wa-2i3"
     },
     {
       "ar": "مَنطَقة",
@@ -3532,7 +3538,9 @@
       "ar": "قِسم",
       "tr": "2ism",
       "en": "Department, section",
-      "cat": "ideas"
+      "cat": "ideas",
+      "pl": "أَقسام",
+      "pltr": "a2-sam"
     },
     {
       "ar": "مُستَوى",
@@ -4125,7 +4133,7 @@
     {
       "ar": "دَقيقة / دَقايِق",
       "tr": "da-2i-2a / da-2a-yi2",
-      "en": "Minute / Minutes",
+      "en": "Minute / Minutes (دَقيقتين = two minutes)",
       "cat": "time"
     },
     {
@@ -4461,7 +4469,7 @@
     {
       "ar": "ضَبّ / يضُبّ",
       "tr": "dabb / y-dobb",
-      "en": "To put away",
+      "en": "To put away, to pack",
       "cat": "verbs"
     },
     {
@@ -7331,7 +7339,7 @@
     {
       "ar": "إجتِماعي / إجتِماعِيّة",
       "tr": "ij-ti-ma-3i / ij-ti-ma-3iy-ye",
-      "en": "Social",
+      "en": "Social; extrovert",
       "cat": "society"
     },
     {
@@ -7583,6 +7591,218 @@
       "tr": "ez-za-hir",
       "en": "Apparently",
       "cat": "expressions"
+    },
+    {
+      "ar": "مْنَبِّه",
+      "tr": "m-nab-bih",
+      "en": "Alarm clock (حَطّيت مْنَبِّه = I set my alarm)",
+      "cat": "things"
+    },
+    {
+      "ar": "فاق / يفيق",
+      "tr": "fa2 / y-fi2",
+      "en": "To wake up",
+      "cat": "verbs"
+    },
+    {
+      "ar": "طَفّى / يطَفّي",
+      "tr": "taf-fa / y-taf-fi",
+      "en": "To switch off",
+      "cat": "verbs"
+    },
+    {
+      "ar": "خَجول / خَجولة",
+      "tr": "kha-joul / kha-jou-le",
+      "en": "Shy (m./f.)",
+      "cat": "adj"
+    },
+    {
+      "ar": "مَغرور / شايِف حالو",
+      "tr": "magh-rour / sha-yif ha-lo",
+      "en": "Arrogant, full of himself",
+      "cat": "adj"
+    },
+    {
+      "ar": "تْمَرَّن / يِتْمَرَّن",
+      "tr": "t-mar-ran / yit-mar-ran",
+      "en": "To practise, train",
+      "cat": "verbs"
+    },
+    {
+      "ar": "دايِخ / دايْخة",
+      "tr": "da-yikh / day-kha",
+      "en": "Dizzy (m./f.)",
+      "cat": "health"
+    },
+    {
+      "ar": "تَطريز",
+      "tr": "tat-riz",
+      "en": "Embroidery",
+      "cat": "things"
+    },
+    {
+      "ar": "مُسَلسَل",
+      "tr": "m-sal-sal",
+      "en": "(TV) series",
+      "cat": "things",
+      "pl": "مُسَلسَلات",
+      "pltr": "m-sal-sa-lat"
+    },
+    {
+      "ar": "مُضحِك",
+      "tr": "mud-hik",
+      "en": "Funny",
+      "cat": "adj",
+      "pl": "مُضحِكين",
+      "pltr": "mud-hi-kin"
+    },
+    {
+      "ar": "قَدّيش بيضَلّ / بيطَوِّل مَعَك؟",
+      "tr": "2ad-deish bi-dall / bi-taw-wil ma3ak",
+      "en": "How long does it last / take you?",
+      "cat": "expressions"
+    },
+    {
+      "ar": "طَوَّل / يطَوِّل",
+      "tr": "taw-wal / y-taw-wil",
+      "en": "To take long",
+      "cat": "verbs"
+    },
+    {
+      "ar": "بطَوِّل لَرَكِّز",
+      "tr": "b-taw-wil la-rak-kiz",
+      "en": "It takes me time to concentrate",
+      "cat": "expressions"
+    },
+    {
+      "ar": "رَكَّز / يرَكِّز",
+      "tr": "rak-kaz / y-rak-kiz",
+      "en": "To concentrate",
+      "cat": "verbs"
+    },
+    {
+      "ar": "غِنّية",
+      "tr": "ghin-niy-ye",
+      "en": "Song",
+      "cat": "things",
+      "pl": "أَغاني",
+      "pltr": "a-gha-ni"
+    },
+    {
+      "ar": "غَنّى / يغَنّي",
+      "tr": "ghan-na / y-ghan-ni",
+      "en": "To sing",
+      "cat": "verbs"
+    },
+    {
+      "ar": "صَبر",
+      "tr": "sabr",
+      "en": "Patience",
+      "cat": "people"
+    },
+    {
+      "ar": "واقِعي / واقِعِيّة",
+      "tr": "wa-2i-3i / wa-2i-3iy-ye",
+      "en": "Realistic",
+      "cat": "adj"
+    },
+    {
+      "ar": "مُجتَمَع",
+      "tr": "muj-ta-ma3",
+      "en": "Society",
+      "cat": "society",
+      "pl": "مُجتَمَعات",
+      "pltr": "muj-ta-ma-3at"
+    },
+    {
+      "ar": "غُموض",
+      "tr": "ghu-moud",
+      "en": "Mystery",
+      "cat": "ideas"
+    },
+    {
+      "ar": "مُختَلِف / مُختَلْفة",
+      "tr": "mukh-ta-lif / mukh-tal-fe",
+      "en": "Different",
+      "cat": "adj"
+    },
+    {
+      "ar": "خِلال",
+      "tr": "khi-lal",
+      "en": "During",
+      "cat": "time"
+    },
+    {
+      "ar": "نوع",
+      "tr": "nou3",
+      "en": "Type, kind",
+      "cat": "ideas",
+      "pl": "أَنواع",
+      "pltr": "an-wa3"
+    },
+    {
+      "ar": "صادِم",
+      "tr": "sa-dim",
+      "en": "Shocking",
+      "cat": "adj"
+    },
+    {
+      "ar": "تَحقيق",
+      "tr": "tah-2i2",
+      "en": "Investigation",
+      "cat": "society",
+      "pl": "تَحقيقات",
+      "pltr": "tah-2i-2at"
+    },
+    {
+      "ar": "قَسَّم / يقَسِّم",
+      "tr": "2as-sam / y-2as-sim",
+      "en": "To split, divide",
+      "cat": "verbs"
+    },
+    {
+      "ar": "نَقد",
+      "tr": "na2d",
+      "en": "Criticism",
+      "cat": "ideas"
+    },
+    {
+      "ar": "سَجّادة",
+      "tr": "saj-ja-de",
+      "en": "Carpet, rug",
+      "cat": "things",
+      "pl": "سَجّاد",
+      "pltr": "saj-jad"
+    },
+    {
+      "ar": "جَودة",
+      "tr": "jaw-de",
+      "en": "Quality",
+      "cat": "ideas"
+    },
+    {
+      "ar": "تَبَعي / تَبَعْتي",
+      "tr": "ta-ba3i / ta-ba3-ti",
+      "en": "Mine (m./f. thing)",
+      "cat": "pronouns"
+    },
+    {
+      "ar": "مُستَعمَل",
+      "tr": "mus-ta3-mal",
+      "en": "Used, second-hand",
+      "cat": "adj"
+    },
+    {
+      "ar": "اِختَلَط / يِختِلِط",
+      "tr": "kh-ta-lat / yikh-ti-lit",
+      "en": "To get mixed (by itself)",
+      "cat": "verbs"
+    },
+    {
+      "ar": "تَحفيز",
+      "tr": "tah-fiz",
+      "en": "Motivation",
+      "cat": "people"
     }
   ]
 }
