@@ -291,6 +291,10 @@
     {
       "start": 1176,
       "date": "2026-11-26"
+    },
+    {
+      "start": 1178,
+      "date": "2026-11-26"
     }
   ],
   "words": [
@@ -1099,7 +1103,7 @@
     {
       "ar": "مَشهور",
       "tr": "mash-hour",
-      "en": "Famous / Well-known",
+      "en": "Famous, well-known (= مَعروف)",
       "cat": "adj"
     },
     {
@@ -1127,9 +1131,9 @@
       "cat": "adj"
     },
     {
-      "ar": "غَالي",
-      "tr": "gha-li",
-      "en": "Expensive",
+      "ar": "غالي / غالْية",
+      "tr": "gha-li / ghal-ye",
+      "en": "Expensive (m./f.)",
       "cat": "adj"
     },
     {
@@ -3014,7 +3018,9 @@
       "ar": "عُنوان",
       "tr": "3un-wan",
       "en": "Address",
-      "cat": "places"
+      "cat": "places",
+      "pl": "عَناوين",
+      "pltr": "3a-na-win"
     },
     {
       "ar": "مَمنوع",
@@ -3933,10 +3939,12 @@
       "cat": "adj"
     },
     {
-      "ar": "غَني",
-      "tr": "gha-ni",
-      "en": "Rich",
-      "cat": "adj"
+      "ar": "غَني / غَنِيّة",
+      "tr": "gha-ni / gha-niy-ye",
+      "en": "Rich (m./f.)",
+      "cat": "adj",
+      "pl": "أَغنِيا",
+      "pltr": "agh-ni-ya"
     },
     {
       "ar": "سَمين",
@@ -7823,6 +7831,128 @@
       "tr": "kill yom",
       "en": "Every day",
       "cat": "time"
+    },
+    {
+      "ar": "لْيونة",
+      "tr": "lyou-ne",
+      "en": "Flexibility",
+      "cat": "people"
+    },
+    {
+      "ar": "إجمالاً",
+      "tr": "ij-ma-lan",
+      "en": "In principle, overall",
+      "cat": "expressions"
+    },
+    {
+      "ar": "مُدَرِّب / مُدَرِّبة",
+      "tr": "m-dar-rib / m-dar-ri-be",
+      "en": "Coach, trainer (m./f.)",
+      "cat": "jobs",
+      "pl": "مُدَرِّبين",
+      "pltr": "m-dar-ri-bin"
+    },
+    {
+      "ar": "مْأَلَّف / مْأَلَّفة مِن",
+      "tr": "m-al-laf / m-al-la-fe min",
+      "en": "Composed of, made up of",
+      "cat": "expressions"
+    },
+    {
+      "ar": "غُرفة / أوضة",
+      "tr": "ghur-fe / o-da",
+      "en": "Room",
+      "cat": "places",
+      "pl": "غُرَف / أُوَض",
+      "pltr": "ghu-raf / u-wad"
+    },
+    {
+      "ar": "ضَوّ",
+      "tr": "daw",
+      "en": "Light",
+      "cat": "things",
+      "pl": "أَضواء",
+      "pltr": "ad-wa2"
+    },
+    {
+      "ar": "مْضَوّي / مْضَوّْية",
+      "tr": "m-daw-wi / m-daw-ye",
+      "en": "Bright, full of light (m./f.)",
+      "cat": "adj"
+    },
+    {
+      "ar": "اِعتَبَر / يِعتِبِر",
+      "tr": "3-ta-bar / yi3-ti-bir",
+      "en": "To consider",
+      "cat": "verbs"
+    },
+    {
+      "ar": "بْتِعتَبَر غالْية",
+      "tr": "b-ti3-ta-bar ghal-ye",
+      "en": "It's considered expensive",
+      "cat": "expressions"
+    },
+    {
+      "ar": "حَجم",
+      "tr": "hajm",
+      "en": "Size",
+      "cat": "ideas",
+      "pl": "أَحجام",
+      "pltr": "ah-jam"
+    },
+    {
+      "ar": "حَجم الشَّقّة",
+      "tr": "hajm esh-sha22a",
+      "en": "Size of the apartment",
+      "cat": "places"
+    },
+    {
+      "ar": "مَعروف / مَعروفة",
+      "tr": "ma3-rouf / ma3-rou-fe",
+      "en": "Famous, known (m./f.)",
+      "cat": "adj"
+    },
+    {
+      "ar": "صاحِب الشَّقّة / مالِك",
+      "tr": "sa-hib esh-sha22a / ma-lik",
+      "en": "Landlord, owner",
+      "cat": "people"
+    },
+    {
+      "ar": "مَجبور / مَجبورة",
+      "tr": "maj-bour / maj-bou-ra",
+      "en": "Obliged, forced (m./f.)",
+      "cat": "adj"
+    },
+    {
+      "ar": "مُستَأجِر",
+      "tr": "mus-ta2-jir",
+      "en": "Tenant",
+      "cat": "people",
+      "pl": "مُستَأجِرين",
+      "pltr": "mus-ta2-ji-rin"
+    },
+    {
+      "ar": "مُحاضَرة",
+      "tr": "mu-ha-da-ra",
+      "en": "Lecture, conference",
+      "cat": "study",
+      "pl": "مُحاضَرات",
+      "pltr": "mu-ha-da-rat"
+    },
+    {
+      "ar": "مُظاهَرة",
+      "tr": "mu-za-ha-ra",
+      "en": "Demonstration, protest",
+      "cat": "politics",
+      "pl": "مُظاهَرات",
+      "pltr": "mu-za-ha-rat"
+    },
+    {
+      "ar": "مِن وَرا",
+      "tr": "min wa-ra",
+      "en": "Because of; according to",
+      "cat": "expressions"
     }
   ]
 }
