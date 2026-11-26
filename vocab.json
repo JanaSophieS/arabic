@@ -287,6 +287,10 @@
     {
       "start": 1143,
       "date": "2026-11-26"
+    },
+    {
+      "start": 1176,
+      "date": "2026-11-26"
     }
   ],
   "words": [
@@ -1135,10 +1139,12 @@
       "cat": "adj"
     },
     {
-      "ar": "جَديد",
-      "tr": "ja-did",
-      "en": "New",
-      "cat": "adj"
+      "ar": "جَديد / جْديدة",
+      "tr": "ja-did / jdi-de",
+      "en": "New (m./f.)",
+      "cat": "adj",
+      "pl": "جْداد",
+      "pltr": "jdad"
     },
     {
       "ar": "قَديم",
@@ -7803,6 +7809,20 @@
       "tr": "tah-fiz",
       "en": "Motivation",
       "cat": "people"
+    },
+    {
+      "ar": "يوم",
+      "tr": "yom",
+      "en": "Day",
+      "cat": "time",
+      "pl": "أَيّام",
+      "pltr": "ay-yam"
+    },
+    {
+      "ar": "كِلّ يوم",
+      "tr": "kill yom",
+      "en": "Every day",
+      "cat": "time"
     }
   ]
 }
